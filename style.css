@@ -10,8 +10,43 @@ html,body{
 }
 
 #parent{
-    height: 20vmin;
-    width: 20vmin;
+    height: 100%;
+    width: 100%;
     background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+
 }
+
+.one{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.two{
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+}
+.three{
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+}
+.four{
+    height: 100px;
+    width: 100px;
+    background-color: azure;
+}
+.five{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+}
+
 
