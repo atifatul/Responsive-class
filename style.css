@@ -8,3 +8,10 @@ html,body{
     height: 100%;
     width: 100%;
 }
+
+#parent{
+    height: 20vmin;
+    width: 20vmin;
+    background-color: blue;
+}
+
